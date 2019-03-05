@@ -4,7 +4,7 @@ while True:
 		val=int(a)
 		break
 	except:
-		printf("invalid")
+		print("invalid")
 		break
 if(val<0):
 	print("invalid")
