@@ -1,5 +1,5 @@
 char=input()
 if((char>="a" and char<="z") or (char>="A" and char<="Z")):# yourcode goes here
-print("Alphabet")
+ print("Alphabet")
 else:
-print("Not")
+ print("Not")
