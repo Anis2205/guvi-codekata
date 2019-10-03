@@ -1,0 +1,14 @@
+#include <stdio.h>
+ 
+int main(void) {
+    int i,j,c;
+	scanf("%d",&i);
+	scanf("%d",&j);
+	if(i>j)
+	c=i-j;
+	else{
+	c=j-i;}
+printf("%d",c);
+	return 0;
+}
+ 
