@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(void) {
+  int N,L,X,K,R;
+  scanf("%d",&N);
+  scanf("%d %d",&L,&R);
+  if(L<R)
+  {
+  X=L;
+  K=R;}
+  else{
+  X=R;
+  K=L;}
+  if((N>X) && (N<K))
+  printf("yes");
+  else
+  printf("no");
+	return 0;
+}
