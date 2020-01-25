@@ -1,0 +1,4 @@
+import PySimpleGUI as sg
+layout=[[sg.InputCombo(['coice1','choice2'])],[sg.Button("ok")]]
+window=sg.Window('GUI',layout)
+button,values=window.Read()
